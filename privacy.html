@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Trip Board privacy</title>
+    <style>
+      :root { --paper: #f4efe6; --ink: #2b2622; --muted: #776d63; --accent: #b2522e; }
+      @media (prefers-color-scheme: dark) { :root { --paper: #171513; --ink: #ece5d8; --muted: #a79d90; --accent: #e0875d; } }
+      body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.6 system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+      main { max-width: 38rem; margin: 0 auto; padding: 3rem 1.25rem 4rem; }
+      h1, h2 { font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif; font-weight: 500; }
+      h1 { font-size: 2.2rem; margin: 0 0 0.3rem; }
+      h2 { font-size: 1.3rem; margin: 2rem 0 0.4rem; }
+      .lede { color: var(--muted); font-style: italic; }
+      a { color: var(--accent); }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Trip Board privacy</h1>
+      <p class="lede">A private family travel calendar, run by one person for their own trips.</p>
+
+      <h2>Who uses it</h2>
+      <p>Trip Board is a personal tool. Its only Google user is its owner. It is not offered to the public.</p>
+
+      <h2>What it reads</h2>
+      <p>With the owner's permission, Trip Board reads the owner's own Gmail through Google's read-only access (<code>gmail.readonly</code>) to find travel bookings such as flights, stays and tours. It cannot send, delete or change any email. It uses no Google Calendar or other Google data.</p>
+
+      <h2>What it keeps</h2>
+      <p>Booking details it finds are kept in the owner's private GitHub repository. The family page publishes only the itinerary (places, dates and times), encrypted so that only people with the family passcode can read it. Booking references are encrypted separately under the owner's passphrase. Prices, street addresses and email text are never published. Email text is not stored.</p>
+
+      <h2>Who it is shared with</h2>
+      <p>No one beyond the family members the owner gives the passcode to. Trip Board sends no data to any other service, uses no analytics or advertising, and no artificial intelligence reads the email.</p>
+
+      <h2>Removing access</h2>
+      <p>The owner can withdraw Gmail access at any time in their Google Account, under Security, Third-party access. Deleting the private repository and this site removes everything Trip Board kept.</p>
+
+      <p><a href="./">Back to Trip Board</a></p>
+    </main>
+  </body>
+</html>
